@@ -1,11 +1,30 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Привет, Мир!</title>
-</head>
-<body>
-	
-
-
-</body>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <meta charset="utf-8">
+        <title>Испытание: многоуровневое меню</title>
+    </head>
+    <body>
+        <ul class="main-menu">
+            <li><a href="/demos">Демонстрации</a></li>
+            <li>
+                <a href="/courses">Курсы</a>
+                <ul class="sub-menu">
+                    <li><a href="/courses/4">Знакомство</a></li>
+                    <li><a href="/courses/42">Селекторы</a></li>
+                    <li><a href="/courses/45">Позиционирование</a></li>
+                </ul>
+            </li>
+            <li><a href="/public_profiles">Участники</a>
+                <ul class="sub-menu">
+                    <li>Хромов</li>
+                    <li>Абазов</li>
+                    <li>Джигурда</li>
+                </ul>
+            </li>
+            <li><a href="/achievments">Достижения</a></li>
+            <li><a href="/profile">Профиль</a></li>
+        </ul>
+    </body>
 </html>
